@@ -49,48 +49,13 @@ This is a **personal experience** turned into a demo project. After experiencing
 
 ---
 
-## Architecture
+## Architecture and System Overview
 
 ![System Architecture](./architecture-diagram.svg)
 
+### User Workflow
+
 ![User Workflow](./workflow-diagram.svg)
-
-### System Overview
-
-```
-┌─────────────────────────────────────────────────────────────┐
-│                      User Browser                           │
-│  ┌───────────────────────────────────────────────────────┐  │
-│  │              React Frontend (Vite)                     │  │
-│  │   - Input Form (text + image upload)                   │  │
-│  │   - Results Dashboard (risk banner, flags, questions)  │  │
-│  └───────────────────────────────────────────────────────┘  │
-└──────────────────────────┬──────────────────────────────────┘
-                           │ POST /api/analyze (FormData)
-                           ▼
-┌─────────────────────────────────────────────────────────────┐
-│                 Flask Backend (Port 5000)                    │
-│                                                              │
-│  ┌─────────────┐  ┌─────────────┐  ┌─────────────────────┐  │
-│  │    Text     │  │   Image     │  │  Student Context    │  │
-│  │  Analyzer   │  │  Analyzer   │  │     Analyzer        │  │
-│  │ (Gemini AI) │  │  (Gemini)   │  │   (Mock Reddit)     │  │
-│  └──────┬──────┘  └──────┬──────┘  └──────────┬──────────┘  │
-│         └────────────────┼────────────────────┘              │
-│                          ▼                                   │
-│              ┌────────────────────┐                          │
-│              │ Question Generator │                          │
-│              │ (LLM + Guardrails) │                          │
-│              └────────────────────┘                          │
-└──────────────────────────┬──────────────────────────────────┘
-                           │
-          ┌────────────────┴────────────────┐
-          ▼                                 ▼
-   ┌─────────────┐                  ┌─────────────┐
-   │ Gemini API  │                  │ Mock Reddit │
-   │  (Real)     │                  │   (JSON)    │
-   └─────────────┘                  └─────────────┘
-```
 
 ### Data Flow
 
