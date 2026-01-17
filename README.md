@@ -74,7 +74,7 @@ Classifies Reddit comments as positive/negative/neutral using a cost-optimized a
 
 Every comment is scored using weighted keyword matching. College-specific phrases ("sketchy", "close to campus") carry 3x weight, strong words ("terrible", "amazing") carry 2x, moderate words carry 1x. Negations reduce confidence.
 
-- **Tier 1 (80%):** Score ≥3 or ≤-3 → classify with rules only (no API call)
+- **Tier 1 (80%):** Score ≥ 3 or ≤ -3 → classify with rules only (no API call)
 - **Tier 2 (15%):** Low confidence → call Gemini for nuanced understanding
 - **Tier 3 (5%):** LLM fails → fall back to rules
 
@@ -104,9 +104,9 @@ Combines three dimensions to prevent any single good factor from masking issues:
 Final risk = average of all 3: 
 - ≤ 1.5 → LOW
 - ≤ 2.5 → MEDIUM
-- > 2.5 → HIGH
+- \> 2.5 → HIGH
 
-**Example:** 4 red flags (text=3) + mediocre photos (image=2) + positive reviews (student=1) = avg 2.0 → **MEDIUM Risk**
+**Example:** 4 red flags (text = 3) + mediocre photos (image = 2) + positive reviews (student = 1) = avg 2.0 → **MEDIUM Risk**
 
 #### 4. Question Generation with Anti-Hallucination
 
@@ -115,7 +115,7 @@ Generates landlord questions using LLM, with strict validation to prevent halluc
 1. Tag all findings with unique IDs (`text_flag_0`, `photo_issue_0`, etc.)
 2. LLM generates questions, each must reference valid flag IDs
 3. Validate every flag_id exists; reject hallucinations
-4. If >50% rejected or <50% coverage, fall back to listing all flags as bullets
+4. If \> 50% rejected or \< 50% coverage, fall back to listing all flags as bullets
 
 **Example:** LLM generates "Is there a pool?" referencing `amenity_pool` — rejected because that flag doesn't exist. User only sees valid questions.
 
