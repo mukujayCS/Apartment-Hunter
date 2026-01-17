@@ -22,6 +22,12 @@
     🏠 Apartment Hunter - User Workflow
   </text>
 
+  <!-- Processing Phase Bounding Box -->
+  <rect x="460" y="95" width="865" height="180" rx="20" fill="#f59e0b" opacity="0.25" stroke="#d97706" stroke-width="2" stroke-dasharray="8,4"/>
+  <text x="892" y="85" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#92400e">
+    AI Processing Phase
+  </text>
+
   <!-- Step 1: User Input -->
   <g id="step1">
     <rect x="100" y="120" width="280" height="140" rx="15" fill="#3b82f6" filter="url(#shadow)"/>
@@ -74,9 +80,6 @@
     </text>
   </g>
 
-  <!-- Arrow 2 to 3 -->
-  <line x1="680" y1="190" x2="780" y2="190" stroke="#1f2937" stroke-width="4" marker-end="url(#arrow)"/>
-
   <!-- Step 3: Image Analysis -->
   <g id="step3">
     <rect x="780" y="120" width="200" height="140" rx="15" fill="#8b5cf6" filter="url(#shadow)"/>
@@ -97,9 +100,6 @@
       ⚠️ Photo Issues
     </text>
   </g>
-
-  <!-- Arrow 3 to 4 -->
-  <line x1="980" y1="190" x2="1080" y2="190" stroke="#1f2937" stroke-width="4" marker-end="url(#arrow)"/>
 
   <!-- Step 4: Student Context -->
   <g id="step4">
