@@ -202,7 +202,7 @@ npm install
 # Verify backend
 cd ../backend
 python tests/test_backend.py
-# Should see: "🎉 All tests passed! Backend is ready."
+# Should see: "All tests passed! Backend is ready."
 ```
 
 ### Running the App
