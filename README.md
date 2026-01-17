@@ -253,6 +253,6 @@ This project was developed with assistance from **Claude** (Anthropic) to accele
 **Where Claude helped:**
 - **UI Improvements** - Component architecture, CSS layouts, drag & drop implementation, accessibility improvements
 - **Debugging** - Assisting in finding the root cause of different bugs that arose during the development process
-- **Visual Design Improvements** - visual improvements the system architecture and workflow diagrams
+- **Visual Design Improvements** - Visual improvements to the system architecture and workflow diagrams
 
 **Main Goal:** AI assistance enabled faster iteration and better code quality to lead to a better end product
