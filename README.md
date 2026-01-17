@@ -49,7 +49,7 @@ This is a **personal experience** turned into a demo project. After experiencing
 
 ---
 
-## Architecture and System Overview
+## Architecture
 
 ![System Architecture](./architecture-diagram.svg)
 
