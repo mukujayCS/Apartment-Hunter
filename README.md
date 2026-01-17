@@ -101,7 +101,10 @@ Combines three dimensions to prevent any single good factor from masking issues:
 - **Image Risk** (1-3): Based on photo quality score
 - **Student Risk** (1-3): Based on negative comment ratio
 
-Final risk = average: ≤1.5 → LOW, ≤2.5 → MEDIUM, >2.5 → HIGH
+Final risk = average of all 3: 
+- ≤1.5 → LOW
+- ≤2.5 → MEDIUM
+- >2.5 → HIGH
 
 **Example:** 4 red flags (text=3) + mediocre photos (image=2) + positive reviews (student=1) = avg 2.0 → **MEDIUM Risk**
 
