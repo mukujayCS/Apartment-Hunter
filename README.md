@@ -41,8 +41,8 @@ This is a **personal experience** turned into a demo project. After experiencing
 
 | Layer | Technology | Why |
 |-------|------------|-----|
-| **Frontend** | React 18 + Vite | Modern UI with instant HMR; Vite over CRA for 10x faster dev server |
-| **Styling** | Vanilla CSS | Demonstrates CSS skills (flexbox, grid, variables) without framework overhead |
+| **Frontend** | React 18 + Vite | Modern UI with instant HMR; Vite over CRA for faster dev server |
+| **Styling** | Vanilla CSS | CSS capability (flexbox, grid, variables) without framework overhead |
 | **Backend** | Flask 3.0 | Lightweight and familiar; right-sized for this scope |
 | **AI** | Google Gemini API | Text and image analysis via `google-generativeai` SDK |
 | **Data** | Mock Reddit JSON | Reddit API requires pre-approval (Nov 2025 policy); mock data demonstrates the feature |
