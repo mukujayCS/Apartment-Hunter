@@ -86,10 +86,10 @@ Every comment is scored using weighted keyword matching. College-specific phrase
 
 The 1-5 star score uses recency-weighted sentiment. Recent comments matter more—a 2-year-old construction complaint isn't relevant if construction finished.
 
-- < 2 months: 1.5x weight
+- Less than 2 months: 1.5x weight
 - 2-6 months: 1.2x weight
 - 6-12 months: 1.0x weight
-- > 12 months: 0.7x weight
+- Greater than 12 months: 0.7x weight
 
 Score maps weighted sentiment ratios to a 1-5 scale (>50% negative → 2.0, >50% positive → 4.5).
 
