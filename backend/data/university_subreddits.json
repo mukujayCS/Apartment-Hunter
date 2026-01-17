@@ -1,0 +1,60 @@
+{
+  "description": "Mapping of university names to their corresponding subreddits",
+  "mappings": {
+    "uiuc": "UIUC",
+    "illinois": "UIUC",
+    "champaign": "UIUC",
+    "university of illinois": "UIUC",
+
+    "berkeley": "berkeley",
+    "ucb": "berkeley",
+    "cal": "berkeley",
+    "uc berkeley": "berkeley",
+
+    "umich": "uofm",
+    "michigan": "uofm",
+    "ann arbor": "uofm",
+    "university of michigan": "uofm",
+
+    "stanford": "stanford",
+
+    "mit": "mit",
+
+    "ucla": "ucla",
+
+    "usc": "usc",
+    "southern california": "usc",
+
+    "ut austin": "UTAustin",
+    "texas": "UTAustin",
+    "university of texas": "UTAustin",
+
+    "bu": "BostonU",
+    "boston university": "BostonU",
+
+    "nyu": "nyu",
+    "new york university": "nyu",
+
+    "cornell": "Cornell",
+
+    "columbia": "columbia",
+
+    "upenn": "UPenn",
+    "penn": "UPenn",
+    "university of pennsylvania": "UPenn",
+
+    "duke": "duke",
+
+    "northwestern": "Northwestern",
+
+    "uchicago": "uchicago",
+    "university of chicago": "uchicago",
+
+    "jhu": "jhu",
+    "johns hopkins": "jhu",
+    "hopkins": "jhu",
+    "johns hopkins university": "jhu",
+
+    "default": "college"
+  }
+}

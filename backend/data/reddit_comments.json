@@ -1,0 +1,609 @@
+{
+  "description": "Mock Reddit student comments organized by university and category. Simulates real student experiences from college housing subreddits.",
+  "note": "Reddit API access requires pre-approval as of November 2025. This mock data demonstrates the feature while maintaining production-ready architecture.",
+
+  "metadata": {
+    "source": "reddit",
+    "data_version": "3.0",
+    "last_updated": "2025-01",
+    "universities": ["UIUC", "jhu"]
+  },
+
+  "UIUC": {
+    "location": [
+      {
+        "text": "Lived here junior year. Location is perfect - literally 5 min walk to the engineering quad. Can't beat it for early morning classes.",
+        "score": 45,
+        "time_posted": "2024-11",
+        "user_type": "undergrad"
+      },
+      {
+        "text": "Location is decent but you're gonna need a bike. 15-20 min walk to main campus. Not terrible but kind of annoying in winter.",
+        "score": 23,
+        "time_posted": "2024-09",
+        "user_type": "undergrad"
+      },
+      {
+        "text": "Right next to the bus stop which is clutch. Multiple routes go past here so you can get anywhere on campus in like 10 min.",
+        "score": 67,
+        "time_posted": "2025-01",
+        "user_type": "grad"
+      },
+      {
+        "text": "Way too far from campus IMO. You'll be spending 30+ min commuting each way. There are closer places for similar prices.",
+        "score": 34,
+        "time_posted": "2024-03",
+        "user_type": "undergrad"
+      },
+      {
+        "text": "Perfect location if you're in the business school. Literally across the street. Walking distance to library and student union too.",
+        "score": 89,
+        "time_posted": "2024-12",
+        "user_type": "grad"
+      },
+      {
+        "text": "Location is amazing but parking is BRUTAL. Took me 45 minutes to find a spot on move-in day. Street parking only.",
+        "score": 41,
+        "time_posted": "2024-08",
+        "user_type": "undergrad"
+      }
+    ],
+
+    "safety": [
+      {
+        "text": "Feel super safe here. Building has keycard access and there's always people around. Well lit at night too.",
+        "score": 52,
+        "time_posted": "2024-10",
+        "user_type": "undergrad"
+      },
+      {
+        "text": "Sketchy area after dark tbh. My car got broken into twice. Would not recommend for anyone walking home late from library.",
+        "score": 78,
+        "time_posted": "2024-06",
+        "user_type": "grad"
+      },
+      {
+        "text": "Never had any issues with safety. Cameras everywhere and landlord is pretty responsive about security concerns.",
+        "score": 29,
+        "time_posted": "2025-01",
+        "user_type": "undergrad"
+      },
+      {
+        "text": "Campus police patrol this area regularly. Seen them drive by multiple times every night. Feels very secure.",
+        "score": 64,
+        "time_posted": "2024-11",
+        "user_type": "grad"
+      },
+      {
+        "text": "Package theft is REALLY common here. Get a PO box if you order stuff online. My roommate had 3 packages stolen in one semester.",
+        "score": 91,
+        "time_posted": "2024-05",
+        "user_type": "undergrad"
+      }
+    ],
+
+    "noise": [
+      {
+        "text": "Walls are PAPER THIN. Could hear my neighbors entire conversations, music, everything. Terrible for studying. 0/10 would not recommend.",
+        "score": 156,
+        "time_posted": "2024-07",
+        "user_type": "undergrad"
+      },
+      {
+        "text": "Pretty quiet most of the time. Occasionally get some noise from the unit above but nothing crazy. Definitely livable.",
+        "score": 38,
+        "time_posted": "2024-12",
+        "user_type": "grad"
+      },
+      {
+        "text": "Right above a bar on Green Street so it gets LOUD Thursday-Saturday nights. If you're a light sleeper, bring earplugs or look elsewhere.",
+        "score": 203,
+        "time_posted": "2024-10",
+        "user_type": "undergrad"
+      },
+      {
+        "text": "Super quiet building. Most residents are grad students so everyone respects quiet hours. Perfect for focusing on coursework.",
+        "score": 72,
+        "time_posted": "2025-01",
+        "user_type": "grad"
+      },
+      {
+        "text": "Noise from the street is constant. Fire trucks, ambulances, drunk students yelling at 2am. You get used to it but it sucks at first.",
+        "score": 48,
+        "time_posted": "2024-04",
+        "user_type": "undergrad"
+      },
+      {
+        "text": "The upstairs neighbors sound like they're moving furniture at 3am every single night. Complained to landlord multiple times, nothing changed.",
+        "score": 134,
+        "time_posted": "2024-09",
+        "user_type": "undergrad"
+      }
+    ],
+
+    "landlord": [
+      {
+        "text": "Landlord is super responsive. Maintenance requests get handled within 24 hours usually. Way better than my last place.",
+        "score": 67,
+        "time_posted": "2024-11",
+        "user_type": "grad"
+      },
+      {
+        "text": "WORST landlord I've ever dealt with. Took 3 weeks to fix broken heat in the middle of winter. Absolutely ridiculous.",
+        "score": 289,
+        "time_posted": "2024-02",
+        "user_type": "undergrad"
+      },
+      {
+        "text": "Property management company is decent. Not amazing but they get stuff done eventually. Just document everything in writing.",
+        "score": 45,
+        "time_posted": "2024-08",
+        "user_type": "undergrad"
+      },
+      {
+        "text": "They tried to keep our ENTIRE security deposit for 'normal wear and tear.' Had to threaten legal action to get it back. Shady AF.",
+        "score": 412,
+        "time_posted": "2024-05",
+        "user_type": "grad"
+      },
+      {
+        "text": "Landlord is chill and fair. Did a thorough walkthrough when we moved in and documented everything. Got full deposit back when we left.",
+        "score": 98,
+        "time_posted": "2024-12",
+        "user_type": "undergrad"
+      },
+      {
+        "text": "They're really bad about communication. Emails go unanswered for days. If something breaks, good luck getting help quickly.",
+        "score": 167,
+        "time_posted": "2024-06",
+        "user_type": "undergrad"
+      }
+    ],
+
+    "transit": [
+      {
+        "text": "Bus stop right outside. Routes 1, 5, and 13 all stop here. Super convenient for getting around Champaign-Urbana.",
+        "score": 54,
+        "time_posted": "2024-10",
+        "user_type": "undergrad"
+      },
+      {
+        "text": "Transit options suck here. Closest bus is a 10 min walk and only runs every 30 minutes. Definitely need a car or bike.",
+        "score": 73,
+        "time_posted": "2024-07",
+        "user_type": "grad"
+      },
+      {
+        "text": "Perfect for biking. Bike lane goes straight to campus. Takes me 8 minutes door to door.",
+        "score": 41,
+        "time_posted": "2025-01",
+        "user_type": "undergrad"
+      },
+      {
+        "text": "No parking included and street parking is a nightmare. Ended up getting a garage spot 2 blocks away for $150/month extra.",
+        "score": 62,
+        "time_posted": "2024-09",
+        "user_type": "grad"
+      }
+    ],
+
+    "condition": [
+      {
+        "text": "Place was DISGUSTING when we moved in. Moldy shower, stains on carpet, broken cabinet doors. Had to deep clean for 2 days.",
+        "score": 234,
+        "time_posted": "2024-08",
+        "user_type": "undergrad"
+      },
+      {
+        "text": "Recently renovated, everything is modern and clean. New appliances, nice countertops, updated bathrooms. Really impressed.",
+        "score": 112,
+        "time_posted": "2024-12",
+        "user_type": "grad"
+      },
+      {
+        "text": "Older building but well-maintained. Everything works and it's clean. Not fancy but totally livable.",
+        "score": 47,
+        "time_posted": "2024-11",
+        "user_type": "undergrad"
+      },
+      {
+        "text": "AC broke in August and took 2 weeks to fix. It was literally 95 degrees inside. Absolutely miserable.",
+        "score": 187,
+        "time_posted": "2024-08",
+        "user_type": "undergrad"
+      },
+      {
+        "text": "Cockroach problem is REAL. Saw them constantly despite keeping everything clean. Building-wide issue that management won't address.",
+        "score": 298,
+        "time_posted": "2024-04",
+        "user_type": "grad"
+      },
+      {
+        "text": "Appliances are ancient but they work. Washer/dryer in unit which is huge. Just don't expect anything fancy.",
+        "score": 56,
+        "time_posted": "2024-10",
+        "user_type": "undergrad"
+      }
+    ],
+
+    "price": [
+      {
+        "text": "Overpriced for what you get IMO. $1200/month for a tiny studio with no parking. Better deals elsewhere in Campustown.",
+        "score": 89,
+        "time_posted": "2024-09",
+        "user_type": "undergrad"
+      },
+      {
+        "text": "Really good value. $850/month includes all utilities which is rare around here. Saves a ton of money.",
+        "score": 76,
+        "time_posted": "2024-11",
+        "user_type": "grad"
+      },
+      {
+        "text": "Price is fair for the location. You're paying extra to be walking distance to campus but it's worth it if you value time.",
+        "score": 51,
+        "time_posted": "2025-01",
+        "user_type": "undergrad"
+      },
+      {
+        "text": "They raised rent by $200 when we renewed. No improvements to the unit, just pure greed. Looking for a new place.",
+        "score": 142,
+        "time_posted": "2024-06",
+        "user_type": "grad"
+      },
+      {
+        "text": "Hidden fees everywhere. 'Amenity fee', 'trash fee', 'common area maintenance'. Adds up to like $100/month extra. Read your lease carefully!",
+        "score": 267,
+        "time_posted": "2024-05",
+        "user_type": "undergrad"
+      }
+    ],
+
+    "overall": [
+      {
+        "text": "Best place I've lived during college. Would absolutely renew if I wasn't graduating. Great location, solid management, good price.",
+        "score": 134,
+        "time_posted": "2024-12",
+        "user_type": "undergrad"
+      },
+      {
+        "text": "It's fine. Nothing special but gets the job done. If you're just looking for somewhere cheap and functional, this works.",
+        "score": 63,
+        "time_posted": "2024-10",
+        "user_type": "grad"
+      },
+      {
+        "text": "AVOID THIS PLACE. Worst year of my life. Everything that could go wrong did. Save yourself the headache.",
+        "score": 312,
+        "time_posted": "2024-03",
+        "user_type": "undergrad"
+      },
+      {
+        "text": "Pretty happy here overall. Has its issues but every place does. Would recommend to other grad students looking for quiet housing.",
+        "score": 78,
+        "time_posted": "2025-01",
+        "user_type": "grad"
+      },
+      {
+        "text": "Meh. 6/10. Some good things, some bad things. Depends what you're looking for.",
+        "score": 42,
+        "time_posted": "2024-07",
+        "user_type": "undergrad"
+      }
+    ],
+
+    "social": [
+      {
+        "text": "Great community vibe. Lots of students, easy to make friends. Regular game nights in the common area.",
+        "score": 84,
+        "time_posted": "2024-11",
+        "user_type": "undergrad"
+      },
+      {
+        "text": "Everyone keeps to themselves. Kind of isolating if you're social. But perfect if you want privacy I guess.",
+        "score": 37,
+        "time_posted": "2024-09",
+        "user_type": "grad"
+      },
+      {
+        "text": "Mix of undergrads and grad students. Some party noise on weekends but nothing too crazy. Good balance overall.",
+        "score": 59,
+        "time_posted": "2024-12",
+        "user_type": "grad"
+      },
+      {
+        "text": "Neighbors are all international grad students. Super quiet and respectful. Perfect for focusing on research.",
+        "score": 71,
+        "time_posted": "2025-01",
+        "user_type": "grad"
+      }
+    ]
+  },
+
+  "jhu": {
+    "location": [
+      {
+        "text": "Amazing location in Charles Village. 10 min walk to Homewood campus through a nice neighborhood. Super convenient for classes.",
+        "score": 52,
+        "time_posted": "2024-11",
+        "user_type": "undergrad"
+      },
+      {
+        "text": "A bit far from campus. Takes about 25 min on the JHMI shuttle but it's free. Wish I was closer though.",
+        "score": 28,
+        "time_posted": "2024-09",
+        "user_type": "grad"
+      },
+      {
+        "text": "Perfect spot near Hopkins. Walking distance to MSE library and Brody. Can roll out of bed 15 min before class.",
+        "score": 73,
+        "time_posted": "2025-01",
+        "user_type": "undergrad"
+      },
+      {
+        "text": "Right on the Hopkins shuttle route which is great. Also close to restaurants and grocery stores in Hampden.",
+        "score": 64,
+        "time_posted": "2024-12",
+        "user_type": "grad"
+      },
+      {
+        "text": "Location is good but parking is impossible. Street parking permits are hard to get and expensive.",
+        "score": 45,
+        "time_posted": "2024-08",
+        "user_type": "undergrad"
+      }
+    ],
+
+    "safety": [
+      {
+        "text": "Feel pretty safe in this part of Charles Village. Always people walking around and it's well-lit. Just use common sense at night.",
+        "score": 49,
+        "time_posted": "2024-10",
+        "user_type": "undergrad"
+      },
+      {
+        "text": "Area can be sketchy after dark. Had my bike stolen from the porch. Hopkins security does patrol but still be careful.",
+        "score": 82,
+        "time_posted": "2024-06",
+        "user_type": "grad"
+      },
+      {
+        "text": "Building has good security - keycard entry and cameras. Hopkins emergency phones are nearby which is reassuring.",
+        "score": 37,
+        "time_posted": "2025-01",
+        "user_type": "undergrad"
+      },
+      {
+        "text": "Use the Hopkins escort service at night. They're super reliable and will walk/drive you anywhere on campus or nearby.",
+        "score": 68,
+        "time_posted": "2024-11",
+        "user_type": "grad"
+      },
+      {
+        "text": "Package theft is an issue. Get everything delivered to campus mail services if you can. Porch pirates are real.",
+        "score": 95,
+        "time_posted": "2024-05",
+        "user_type": "undergrad"
+      }
+    ],
+
+    "noise": [
+      {
+        "text": "Thin walls are the worst part. Can hear everything from neighbors. Studying at MSE library instead most of the time.",
+        "score": 167,
+        "time_posted": "2024-07",
+        "user_type": "undergrad"
+      },
+      {
+        "text": "Generally quiet. Most residents are Hopkins grad students who keep reasonable hours. Good for studying.",
+        "score": 43,
+        "time_posted": "2024-12",
+        "user_type": "grad"
+      },
+      {
+        "text": "Gets loud on weekends with undergrads partying. Not terrible but noticeable if you're trying to work.",
+        "score": 56,
+        "time_posted": "2024-10",
+        "user_type": "grad"
+      },
+      {
+        "text": "Street noise from St. Paul Street is constant. Sirens and traffic all the time. White noise machine is essential.",
+        "score": 52,
+        "time_posted": "2024-04",
+        "user_type": "undergrad"
+      },
+      {
+        "text": "Super quiet building. Perfect for med students pulling long study hours. Everyone's respectful of each other.",
+        "score": 79,
+        "time_posted": "2025-01",
+        "user_type": "grad"
+      }
+    ],
+
+    "landlord": [
+      {
+        "text": "Landlord responds quickly to maintenance issues. Fixed our broken dishwasher within 2 days. Pretty reliable overall.",
+        "score": 61,
+        "time_posted": "2024-11",
+        "user_type": "grad"
+      },
+      {
+        "text": "Property management is TERRIBLE. Took forever to fix heat in winter. Completely unacceptable for Baltimore weather.",
+        "score": 276,
+        "time_posted": "2024-02",
+        "user_type": "undergrad"
+      },
+      {
+        "text": "Landlord is okay. Not great but not awful. They eventually fix things. Just have to be persistent.",
+        "score": 48,
+        "time_posted": "2024-08",
+        "user_type": "grad"
+      },
+      {
+        "text": "Tried to charge us for damages that were there when we moved in. Make sure you document EVERYTHING with photos on day 1.",
+        "score": 389,
+        "time_posted": "2024-05",
+        "user_type": "undergrad"
+      },
+      {
+        "text": "Really fair landlord. Did thorough move-in inspection, returned full deposit. Would rent from them again.",
+        "score": 92,
+        "time_posted": "2024-12",
+        "user_type": "grad"
+      }
+    ],
+
+    "transit": [
+      {
+        "text": "Hopkins shuttle stops right outside. Blue and Green lines both come here. Makes getting around campus super easy.",
+        "score": 58,
+        "time_posted": "2024-10",
+        "user_type": "undergrad"
+      },
+      {
+        "text": "Transit could be better. JHMI shuttle only comes every 20 min and Baltimore public transit isn't great. Bike is better.",
+        "score": 71,
+        "time_posted": "2024-07",
+        "user_type": "grad"
+      },
+      {
+        "text": "Perfect biking distance. Takes 7 min to Brody on bike. Bike lanes on most streets which is nice.",
+        "score": 44,
+        "time_posted": "2025-01",
+        "user_type": "undergrad"
+      },
+      {
+        "text": "No parking spot and street permits are $200/year plus impossible to get. Ended up selling my car.",
+        "score": 67,
+        "time_posted": "2024-09",
+        "user_type": "grad"
+      }
+    ],
+
+    "condition": [
+      {
+        "text": "Unit was pretty dirty when we moved in. Old carpet stains and grimy bathroom. Spent a whole day cleaning.",
+        "score": 213,
+        "time_posted": "2024-08",
+        "user_type": "undergrad"
+      },
+      {
+        "text": "Recently updated unit. New kitchen, modern bathroom, fresh paint. Way nicer than I expected for the price.",
+        "score": 104,
+        "time_posted": "2024-12",
+        "user_type": "grad"
+      },
+      {
+        "text": "Older Baltimore rowhouse but well-kept. Has character and everything works. Quirky but livable.",
+        "score": 51,
+        "time_posted": "2024-11",
+        "user_type": "undergrad"
+      },
+      {
+        "text": "AC died during a heat wave. Took them 10 days to fix. Almost died in this Baltimore humidity.",
+        "score": 178,
+        "time_posted": "2024-08",
+        "user_type": "grad"
+      },
+      {
+        "text": "Mouse problem that took forever to resolve. Set traps myself. Management was slow to address it.",
+        "score": 267,
+        "time_posted": "2024-04",
+        "user_type": "undergrad"
+      }
+    ],
+
+    "price": [
+      {
+        "text": "Pretty expensive for Baltimore. $1400/month for a 1BR. Could find cheaper but not this close to Hopkins.",
+        "score": 86,
+        "time_posted": "2024-09",
+        "user_type": "undergrad"
+      },
+      {
+        "text": "Good value. $950/month with utilities included. Hard to find that near Homewood campus these days.",
+        "score": 79,
+        "time_posted": "2024-11",
+        "user_type": "grad"
+      },
+      {
+        "text": "Worth it for the location. Paying premium to be walking distance to campus saves time and hassle.",
+        "score": 54,
+        "time_posted": "2025-01",
+        "user_type": "undergrad"
+      },
+      {
+        "text": "Rent increase was brutal. Went up $250 with no improvements. Seriously considering moving.",
+        "score": 138,
+        "time_posted": "2024-06",
+        "user_type": "grad"
+      },
+      {
+        "text": "Watch out for hidden fees. Pet deposit, parking fee, trash fee. Adds up fast. Read the fine print.",
+        "score": 245,
+        "time_posted": "2024-05",
+        "user_type": "undergrad"
+      }
+    ],
+
+    "overall": [
+      {
+        "text": "Best apartment I've had at Hopkins. Great location, decent price, responsive landlord. Would definitely renew.",
+        "score": 128,
+        "time_posted": "2024-12",
+        "user_type": "undergrad"
+      },
+      {
+        "text": "It's okay. Gets the job done. Nothing fancy but functional for Hopkins students. Does what you need.",
+        "score": 67,
+        "time_posted": "2024-10",
+        "user_type": "grad"
+      },
+      {
+        "text": "Would not recommend. Too many issues - maintenance, pests, noise. Save yourself the stress and find something better.",
+        "score": 298,
+        "time_posted": "2024-03",
+        "user_type": "undergrad"
+      },
+      {
+        "text": "Happy with it overall. Perfect for med/grad students who need quiet space close to campus. Solid choice.",
+        "score": 81,
+        "time_posted": "2025-01",
+        "user_type": "grad"
+      },
+      {
+        "text": "Average place. 6.5/10. Has pros and cons like anywhere. Depends on your priorities.",
+        "score": 46,
+        "time_posted": "2024-07",
+        "user_type": "undergrad"
+      }
+    ],
+
+    "social": [
+      {
+        "text": "Good mix of Hopkins students. Easy to meet people in the building. Some organized social events which is nice.",
+        "score": 77,
+        "time_posted": "2024-11",
+        "user_type": "undergrad"
+      },
+      {
+        "text": "Pretty quiet community. Everyone's busy with Hopkins workload. Good if you want to focus, isolating if you're social.",
+        "score": 41,
+        "time_posted": "2024-09",
+        "user_type": "grad"
+      },
+      {
+        "text": "Mix of med students and undergrads. Some weekend parties but nothing crazy. Generally respectful atmosphere.",
+        "score": 63,
+        "time_posted": "2024-12",
+        "user_type": "grad"
+      },
+      {
+        "text": "Mostly grad students and international students. Super quiet and studious. Perfect for research-focused people.",
+        "score": 74,
+        "time_posted": "2025-01",
+        "user_type": "grad"
+      }
+    ]
+  }
+}

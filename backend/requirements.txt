@@ -1,0 +1,16 @@
+# Web Framework
+flask==3.0.0
+flask-cors==4.0.0
+
+# Google Gemini AI
+# Requires Python 3.10+ for full multi-modal support (text + image)
+google-generativeai>=0.3.0
+
+# Environment Variables
+python-dotenv==1.0.0
+
+# Data Processing
+Pillow==10.1.0
+
+# HTTP Requests (if needed)
+requests==2.31.0
