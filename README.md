@@ -15,7 +15,6 @@ Built with Google Gemini AI, React, and Flask • Designed for students tired of
 - [Setup & Installation](#setup--installation)
 - [Usage](#usage)
 - [Potential Extensions](#potential-extensions)
-- [AI Tool Use](#ai-tool-use)
 
 ---
 
@@ -248,14 +247,3 @@ The current implementation is a focused prototype. Natural extensions would incl
 - **Chrome extension** to analyze listings directly on rental sites as a plug-in
 - **Apartment Listing Site API integration** Directly using this tool from apartment listing sites through API's (which are currently paid and only for enterprises) would create a more seamless user experience
 - **Chrome extension** to analyze listings directly on rental sites as a plug-in
-
-## AI Tool Use
-
-This project was developed with assistance from **Claude** (Anthropic) to accelerate development.
-
-**Where Claude helped:**
-- **UI Improvements** - Component architecture, CSS layouts, drag & drop implementation, accessibility improvements
-- **Debugging** - Assisting in finding the root cause of different bugs that arose during the development process
-- **Visual Design Improvements** - Visual improvements to the system architecture and workflow diagrams
-
-**Main Goal:** AI assistance enabled faster iteration and better code quality to lead to a better end product
